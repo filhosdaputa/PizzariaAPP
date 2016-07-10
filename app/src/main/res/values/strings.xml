@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Pizzaria</string>
+    <string name="action_settings">Settings</string>
+    <!-- Titulos. -->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_login">Entrar</string>
+    <string name="title_activity_principal_activity_main">PIZZA E CIA</string>
+    <string name="title_activity_cadastro_endereco">Cadastro</string>
+    <string name="title_activity_pizzas_pequenas">Pizzas</string>
+
+    <!-- Botões. -->
+    <string name="Btn_Cadastrar">Cadastrar</string>
+    <string name="Btn_Entrar">Entrar</string>
+    <string name="Btn_Cancelar">Cancelar</string>
+    <string name="Btn_Voltar">Voltar</string>
+    <string name="Btn_Confirmar">Confirmar</string>
+    <string name="Btn_Cardápio">Cardápio</string>
+    <string name="Btn_Bebidas">Bebidas</string>
+    <string name="Btn_Pizzas">Pizzas</string>
+    <string name="Btn_Proximo">Próximo</string>
+    <string name="Btn_Tradicionais">Tradicionais </string>
+    <string name="Btn_Promocionais">Promocionais </string>
+    <string name="Btn_Especiais"> Especiais </string>
+    <string name="Btn_Cremosas">Cremosas </string>
+    <string name="Btn_Doces">Doces </string>
+    <string name="Btn_Não_Tenho_Codigo">Enviar Código</string>
+
+    <!-- Textos. -->
+    <string name="txt_Senha">Senha</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_Esqueceu">Esqueceu sua Senha?</string>
+    <string name="txt_Nome">Nome Completo</string>
+    <string name="txt_CPF">CPF</string>
+    <string name="txt_Telefone">Telefones</string>
+    <string name="txt_Email">E-mail</string>
+    <string name="txt_DataNasc">Data de Nascimento</string>
+    <string name="txt_Logardouro">Logradouro</string>
+    <string name="txt_Numero">Numero</string>
+    <string name="txt_Bairro">Bairro</string>
+    <string name="txt_CEP">CEP</string>
+    <string name="txt_Cidade">Cidade</string>
+    <string name="txt_Estado">Estado</string>
+    <string name="txt_Referencia">Ponto de Refêrencia</string>
+    <string name="txt_Cardapio">Cardápio</string>
+    <string name="txt_Recuperar">Uma mensagem será enviada para o número 0000 com o código de recuperação</string>
+    <string name="txt_Recupera">Digite o código</string>
+    <string name="txt_Nome_Pizza1">Hot Dog</string>
+    <string name="txt_Descrição_Pizza1">Descrição: Molho, Mussarela, Salsicha, Milho, Azeitona Picada, Batata Palha E Orégano</string>
+    <string name="txt_Nome_Pizza2">Margerita</string>
+    <string name="txt_Descrição_Pizza2">Molho, Mussarela, Tomate, Azeitona E Manjericão</string>
+    <string name="txt_Nome_Pizza3">Catupiry</string>
+    <string name="txt_Descrição_Pizza3">Molho, Mussarela, Catupiry, Orégano E Azeitonas</string>
+    <string name="txt_Nome_Bebida">Suco de Laranja com Acerola</string>
+    <string name="txt_Preço_Bebida">Água: R$3,50 - Leite: R$4,50</string>
+    <string name="Txt_Tradicionais">Pizzas Tradicionais </string>
+    <string name="Txt_Promocionais">Pizzas Promocionais </string>
+    <string name="Txt_Especiais">Pizzas Especiais </string>
+    <string name="Txt_Cremosas">Pizzas Cremosas </string>
+    <string name="Txt_Doces">Pizzas Doces </string>
+    <string name="Txt_Tamanho">Tamanho: Pequena, Média e Grande </string>
+    <string name="Txt_Tamanho1">PEQUENA - MÉDIA - GRANDE </string>
+    <string name="Txt_Preço_Tamanho">00,00  –  00,00  –  00,00 </string>
+    <string name="Txt_Susos">Sucos </string>
+    <string name="Txt_Refrigerantes">Refrigerantes </string>
+    <string name="Txt_Bebidas_Alcolicas">Bebidas Alcolicas</string>
+    <string name="Txt_Outras_Bebidas">Outras Bebidas </string>
+</resources>
