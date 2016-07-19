@@ -4,6 +4,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,6 +34,8 @@ public class TelaInicial extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         vInflate = inflater.inflate(R.layout.fragment_tela_inicial, container, false);
+
+        ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(" Projeto Pizzaria");
 
         btnCardapio = (Button) vInflate.findViewById(R.id.btnCardapio);
         imageButtonInformacao = (ImageButton) vInflate.findViewById(R.id.imageButtonInformacao);

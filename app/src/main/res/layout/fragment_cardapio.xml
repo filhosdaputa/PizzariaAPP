@@ -1,49 +1,31 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              tools:context="br.edu.ifms.pizzaria.Cardapio"
-             android:paddingTop="50dp"
-        >
+             android:paddingTop="50dp">
 
-    <ScrollView
+    <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/scrollView">
+        android:id="@+id/spCategoria"
+        android:layout_alignParentTop="true" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spSubCategoria"
+        android:layout_below="@+id/spCategoria"
+        />
 
-            <Button
-                android:layout_width="340dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="@string/Btn_Bebidas"
-                android:id="@+id/btnBebidas"
-                android:textSize="30dp"
-                android:background="#feb868"
-                android:textColor="#ff8400"
-                android:textStyle="bold"
-                android:layout_gravity="center_horizontal" />
+    <ListView
+        android:id="@+id/listViewCardapio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/spSubCategoria"
+        >
 
-            <Button
-                android:layout_width="340dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="@string/Btn_Pizzas"
-                android:id="@+id/btnPizzas"
-                android:background="#feb868"
-                android:textSize="30dp"
-                android:textColor="#ff8400"
-                android:textStyle="bold"
-                android:layout_gravity="center_horizontal" />
+    </ListView>
 
-        </LinearLayout>
 
-    </ScrollView>
-
-</FrameLayout>
+</RelativeLayout>

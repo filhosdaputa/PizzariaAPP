@@ -27,6 +27,8 @@
     <string name="Btn_Não_Tenho_Codigo">Enviar Código</string>
 
     <!-- Textos. -->
+    <string name="txt_selecione">Selecione</string>
+
     <string name="txt_Senha">Senha</string>
     <string name="txt_login">Login</string>
     <string name="txt_Esqueceu">Esqueceu sua Senha?</string>

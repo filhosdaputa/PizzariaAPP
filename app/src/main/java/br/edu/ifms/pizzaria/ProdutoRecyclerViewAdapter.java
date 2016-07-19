@@ -1,20 +1,19 @@
 package br.edu.ifms.pizzaria;
 
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import br.edu.ifms.pizzaria.model.Bebida;
+import br.edu.ifms.pizzaria.model.Produto;
 
 import java.util.ArrayList;
 
-public class BebidaRecyclerViewAdapter extends RecyclerView.Adapter<BebidaRecyclerViewAdapter.ViewHolder> {
-    private ArrayList<Bebida> bebidaArrayList;
+public class ProdutoRecyclerViewAdapter extends RecyclerView.Adapter<ProdutoRecyclerViewAdapter.ViewHolder> {
+    private ArrayList<Produto> bebidaArrayList;
     private View.OnClickListener listener;
 
-    public BebidaRecyclerViewAdapter(ArrayList<Bebida> bebidaArrayList, View.OnClickListener listener) {
+    public ProdutoRecyclerViewAdapter(ArrayList<Produto> bebidaArrayList, View.OnClickListener listener) {
         this.bebidaArrayList = bebidaArrayList;
         this.listener = listener;
     }
@@ -27,9 +26,9 @@ public class BebidaRecyclerViewAdapter extends RecyclerView.Adapter<BebidaRecycl
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        final Bebida bebida = bebidaArrayList.get(position);
-        holder.textViewNome.setText(bebida.getNome());
-        holder.textViewPreco.setText(bebida.getPreco());
+        //final Produto bebida = bebidaArrayList.get(position);
+//        holder.textViewNome.setText(bebida.getNome());
+//        holder.textViewPreco.setText(bebida.getPreco());
     }
 
     @Override
